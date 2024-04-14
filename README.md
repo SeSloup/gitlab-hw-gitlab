@@ -26,14 +26,14 @@
 ---
 
 ### Задание 1
-
-docker exec -it gitlab bash -c "echo \"external_url 'http://mynetology.docker'\" >> /etc/gitlab/gitlab.rb"
-echo "172.17.0.2	mynetology.docker" >> /etc/hosts
+bash:
+   docker exec -it gitlab bash -c "echo \"external_url 'http://mynetology.docker'\" >> /etc/gitlab/gitlab.rb"  
+   echo "172.17.0.2	mynetology.docker" >> /etc/hosts  
 
 *172.17.0.2 - адрес контейнера с gitlab*
 
-![alt text](https://github.com/SeSloup/gitlab-hw-netology-cicd/blob/main/screens/2-1.png)
-![alt text](https://github.com/SeSloup/gitlab-hw-netology-cicd/blob/main/screens/2-1.png)
+![alt text](https://github.com/SeSloup/gitlab-hw-gitlab/blob/main/screenshots/01-00.png)
+![alt text](https://github.com/SeSloup/gitlab-hw-gitlab/blob/main/screenshots/01-01.png)
 
 
 ---
@@ -42,10 +42,10 @@ echo "172.17.0.2	mynetology.docker" >> /etc/hosts
 
 `Приведите ответ в свободной форме........`
 
-![alt text](https://github.com/SeSloup/gitlab-hw-netology-cicd/blob/main/screens/2-1.png)
-![alt text](https://github.com/SeSloup/gitlab-hw-netology-cicd/blob/main/screens/2-1.png)
-![alt text](https://github.com/SeSloup/gitlab-hw-netology-cicd/blob/main/screens/2-1.png)
-![alt text](https://github.com/SeSloup/gitlab-hw-netology-cicd/blob/main/screens/2-1.png)
+![alt text](https://github.com/SeSloup/gitlab-hw-gitlab/blob/main/screenshots/02-00.png)
+![alt text](https://github.com/SeSloup/gitlab-hw-gitlab/blob/main/screenshots/02-01.png)
+![alt text](https://github.com/SeSloup/gitlab-hw-gitlab/blob/main/screenshots/02-02.png)
+![alt text](https://github.com/SeSloup/gitlab-hw-gitlab/blob/main/screenshots/02-03.png)
 
 ```
 stages:
